@@ -26,5 +26,5 @@ def find_kmers(sequence, k):
 
     return [
         sequence[i:i+k]
-        for i in range(len(sequence) - k)
+        for i in range(len(sequence) - k + 1)
     ]
